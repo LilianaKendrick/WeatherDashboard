@@ -48,6 +48,7 @@ $(document).ready(function () {
             let temperature = $("<h4>").addClass("current-temp").text(`Current Temperature: ${tempF} F°`);
             let humidity = $("<h4>").addClass("humidity").text(`Humidity: ${response.main.humidity}%`);
             let windSpeed = $("<h4>").addClass("wind-speed").text(`Wind Speed ${response.wind.speed} mph`);
+    
 
             //Append values to the figure box
             $(".figure").append(city, iconImage, date, temperature, humidity, windSpeed);
