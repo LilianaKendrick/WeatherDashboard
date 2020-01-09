@@ -118,7 +118,7 @@ $(document).ready(function () {
 
     data.forEach(item => {
         liMaker(item);
-        console.log(item);
+        
     })
     $(".clr-btn").on("click", function () {
         $(".created-city").remove();
